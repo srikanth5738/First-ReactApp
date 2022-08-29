@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+.apple{
+  background-image: url(./images/pexels-quintin-gellar-313782.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1570px;
+  height: 870px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fdNsp{
+  color: white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jwbeMX{
+  color: rgb(8, 8, 8) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav {
+  position: sticky;
+  top: 0;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fdNsp:hover{
+  color: aquamarine;
 }
